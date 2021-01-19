@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0031)http://www.yes-chinese.com/tzg/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<base href="http://www.yes-chinese.com/">--><base href=".">
+
+<meta name="Classification" content="Education, Language education, 教育, 语言学习">
+
+	<meta name="keywords" content="学中文,中文学习,中文课程,中文教材,在线课程,汉语拼音,中文分享阅读,中华文化,中文睡前故事,中文识字卡片,中文诗词,朗朗中文,Learning English">
+
+
+
+
+	<meta name="description" content="朗朗中文为海外中文学习者和中文教育机构提供中文教材和中文教学服务。朗朗中文开发的中文学习系列课程涵盖从启蒙到大学、成人各阶段。课程包括中文教材、在线课程、多媒体互动CD等。朗朗中文网上中文学习平台除配套的网络中文课程外，还提供拼音、中文识字卡、中文阅读、中华文化等中文学习资源。">
+
+<link href="http://static.yes-chinese.com/images/favicon.ico" rel="icon" type="image/x-icon">
+<link href="http://static.yes-chinese.com/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="http://static.yes-chinese.com/images/favicon.ico" rel="bookmark" type="image/x-icon">
+<link type="text/css" rel="stylesheet" href="./index_files/reset.css">
+<link type="text/css" rel="stylesheet" href="./index_files/header.css">
+<link type="text/css" rel="stylesheet" href="./index_files/footer.css">
+<link type="text/css" rel="stylesheet" href="./index_files/topbar.css">
+<link type="text/css" rel="stylesheet" href="./index_files/style.css">
+<link type="text/css" rel="stylesheet" href="./index_files/swiper.min.css">
+
+	<link type="text/css" rel="stylesheet" href="./index_files/bibishun.css">
+
+<script language="javascript" src="./index_files/jquery-1.4.2.min.js"></script>
+<script language="javascript" src="./index_files/swiper.min.js"></script>
+<script language="javascript" src="./index_files/new_store.js"></script>
+
+	<script type="text/javascript" src="./index_files/jquery-1.4.2.min.js"></script>
+
+	<script type="text/javascript" src="./index_files/langlang.js"></script>
+
+	<script type="text/javascript" src="./index_files/bibishun.js"></script>
+
+<title>田字格打印 - 中文天下 Yes! Chinese - Learning Chinese</title>
+
+<script type="text/javascript">
+	var browser=navigator.appName
+	var b_version=navigator.appVersion
+	var version=b_version.split(";");
+	var trim_Version=version[1].replace(/[ ]/g,"");
+	if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0")
+	{	
+		//修正IE6下背景png背景图片不透明
+		$.getScript("scripts/DD_belatedPNG_0.0.8a-min.js",function(){DD_belatedPNG.fix("*");});
+	}
+</script>
+</head>
+
+<body>
+<div id="container">
+	<div id="main">
+    	<div id="banner">
+        	<div id="logo"><a href="http://www.yes-chinese.com/zh-cn/"><img src="./index_files/Langlang_714.png"></a></div>
+            <div id="bibilogo"><a href="http://www.yes-chinese.com/zh-cn/tzg/"><img src="./index_files/Langlang_715.png"></a></div>
+            <div class="clear"></div>
+        </div>
+        <div id="context">
+        	<div id="conTop"></div>
+            <div id="con">
+            	<form action="http://www.yes-chinese.com/zh-cn/tzg/view.jsp" method="post" target="_blank">
+            	<div class="tip">最多输入4个字，每次打印1页。</div>
+                <div class="input"><input type="text" class="words" id="char" name="char" onchange="textLimitCheck(this,4);" disabled="disabled"><input type="image" class="btn" src="./index_files/Langlang_722.png"></div>
+                <div class="format"><span>田字格格式：</span><a href="http://www.yes-chinese.com/#" class="standard" name="standard" id="loadClick">标准</a> <a href="http://www.yes-chinese.com/#" class="DIY" name="DIY">自定义</a> <a href="http://www.yes-chinese.com/#" class="blank selected" name="blank">空白田字格</a><div class="clear"></div></div>
+                <div id="standard" style="display: none;">
+                	<div class="standardPoint"></div>
+                	<table width="180" border="0" cellspacing="0" cellpadding="0">
+                      <tbody><tr>
+                        <td width="116" align="right">田字格大小：</td>
+                        <td width="34" class="val"><strong>中</strong></td>
+                      </tr>
+                      <tr>
+                        <td align="right">每字行数：</td>
+                        <td class="val"><strong>2</strong> 行</td>
+                      </tr>
+                      <tr>
+                        <td align="right">每字描红次数：</td>
+                        <td class="val"><strong>3</strong> 次</td>
+                      </tr>
+                      <tr>
+                        <td align="right">是否打印笔顺行：</td>
+                        <td class="val"><strong>是</strong></td>
+                      </tr>
+                    </tbody></table>
+                </div>
+                <div id="DIY" style="display: none;">
+                	<div class="DIYPoint"></div>
+                    <div id="preview"><div id="write"></div><div id="line"><div id="mediumMark"></div><div id="mediumMark"></div><div id="mediumMark"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="mediumMark"></div><div id="mediumMark"></div><div id="mediumMark"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div></div>
+                	<table width="295" border="0" cellspacing="0" cellpadding="0">
+                      <tbody><tr class="first">
+                        <td width="113"><br>田字格大小<br><span>每行格子数量：</span></td>
+                        <td width="182" class="size"><a href="http://www.yes-chinese.com/#" value="big">大<br><span>7个</span></a> <a href="http://www.yes-chinese.com/#" class="selected" value="medium">中<br><span>9个</span></a> <a href="http://www.yes-chinese.com/#" value="small">小<br><span>11个</span></a><input type="hidden" id="grid" name="grid" value="2"></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>每字行数</td>
+                        <td class="txt"><input type="text" value="2" class="line" id="line" name="line"> 行 <span>（最多9行）</span></td>
+                      </tr>
+                      <tr>
+                        <td>每字描红次数</td>
+                        <td class="txt"><input type="text" value="3" class="number" id="mark" name="mark"> 次 <span>（最多5次）</span></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>打印笔顺？</td>
+                        <td class="or"><a href="http://www.yes-chinese.com/#" class="selected" value="yes">是</a> <a href="http://www.yes-chinese.com/#" value="no">否</a><input type="hidden" id="print" name="print" value="1"></td>
+                      </tr>
+                    </tbody></table>
+                </div>
+                <div id="blank" style="display: block;">
+                	<div class="blankPoint"></div>
+                    <div id="preview"><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div><div id="line"><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div id="medium"></div><div class="clear"></div></div></div>
+                	<table width="295" border="0" cellspacing="0" cellpadding="0">
+                      <tbody><tr class="first">
+                        <td width="113"><br>田字格大小<br><span>每行格子数量：</span></td>
+                        <td width="182" class="size"><a href="http://www.yes-chinese.com/#" value="big">大<br><span>7个</span></a> <a href="http://www.yes-chinese.com/#" class="selected" value="medium">中<br><span>9个</span></a> <a href="http://www.yes-chinese.com/#" value="small">小<br><span>11个</span></a><input type="hidden" id="grid" name="grid" value="2"></td>
+                      </tr>
+                    </tbody></table>
+                </div>
+                </form>
+            </div>
+            <div id="conBottom"></div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <img src="./index_files/Langlang_719.png">
+    <div>THE ART OF CHINESE WRITING <a href="http://www.yes-chinese.com/zh-cn/tzg/writing.jsp">点击进入</a></div>
+</div>
+
+
+</body></html>

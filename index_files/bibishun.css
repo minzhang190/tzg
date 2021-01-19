@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+img{
+	border:none;
+	vertical-align:middle;
+}
+body{
+	font-family:Arial,sans-serif;
+	font-size:14px;
+	color:#000;
+	text-align:center;
+	background-color:#9DD8F6;
+}
+.clear{
+	clear:both;
+}
+
+#container{
+	width:1000px;
+	margin:0 auto;
+	padding-top:40px;
+	padding-bottom:190px;
+	background:url(../images/Langlang_720.png) left bottom no-repeat;
+}
+#main{
+	width:577px;
+	margin:0 auto;
+}
+#banner{
+	padding-left:25px;
+}
+#logo{
+	float:left;
+	padding-top:8px;
+	margin-right:20px;
+}
+#bibilogo{
+	float:left;
+}
+
+#context{
+	margin-top:15px;
+}
+#conTop{
+	height:12px;
+	background:url(../images/Langlang_716.png) bottom no-repeat;
+}
+#con{
+	text-align:left;
+	font-size:16px;
+	background-color:#FFF;
+	padding:60px 0px 20px 0px;
+}
+#con .tip{
+	color:#989898;
+	height:100%;
+	padding-left:73px;
+	padding-right:50px;
+	padding-bottom:7px;
+}
+#con .input{
+	padding-left:65px;
+	padding-right:50px;
+	background:url(../images/Langlang_721.png) no-repeat;
+	background-position:65px center !important;
+	background-position:66px center;
+}
+#con input.words{
+	height:32px !important;
+	height:28px;
+	width:314px !important;
+	width:311px;
+	line-height:28px;
+	padding-left:5px;
+	border:none;
+	font-size:16px;
+	vertical-align:top;
+	margin-top:4px !important;
+	margin-top:2px;
+	margin-left:3px;
+	margin-right:25px;
+}
+#con input.btn{
+	vertical-align:bottom;
+}
+#con .format{
+	padding:18px 10px 35px 73px;
+}
+#con .format span{
+	display:block;
+	float:left;
+	margin-right:10px;
+	font-weight:bolder;
+}
+#con .format a:link,#con .format a:visited{
+	display:block;
+	float:left;
+	height:19px;
+	margin-right:35px;
+	color:#000;
+	padding-left:22px;
+	text-decoration:none;
+	background:url(../images/Langlang_723.png) left center no-repeat;
+}
+#con .format a.selected:link,#con .format a.selected:visited{
+	background:url(../images/Langlang_724.png) left center no-repeat;
+}
+#conBottom{
+	height:12px;
+	background:url(../images/Langlang_717.png) no-repeat;
+}
+#standard{
+	position:relative;
+	height:315px;
+	border-top:1px solid #7B9CAF;
+	border-bottom:1px solid #7B9CAF;
+	padding-left:320px;
+	background:#E0F3FA url(../images/Langlang_730.png) 110px 50px no-repeat;
+}
+#standard .standardPoint{
+	position:absolute;
+	width:19px;
+	height:10px;
+	top:-10px;
+	left:185px;
+	background:url(../images/Langlang_725.png) no-repeat;
+}
+#standard table{
+	margin-top:90px;
+}
+#standard td{
+	padding:7px 0px;
+	font-size:16px;
+}
+#standard td.val{
+	color:#7A9DB0;
+}
+#DIY,#blank{
+	position:relative;
+	height:315px;
+	border-top:1px solid #7B9CAF;
+	border-bottom:1px solid #7B9CAF;
+	padding-left:280px;
+	background:#E0F3FA url(../images/Langlang_731.png) 70px 30px no-repeat;
+}
+#DIY .DIYPoint{
+	position:absolute;
+	width:19px;
+	height:10px;
+	top:-10px;
+	left:275px;
+	background:url(../images/Langlang_725.png) no-repeat;
+}
+#blank .blankPoint{
+	position:absolute;
+	width:19px;
+	height:10px;
+	top:-10px;
+	left:380px;
+	background:url(../images/Langlang_725.png) no-repeat;
+}
+#DIY table,#blank table{
+	margin-top:40px;
+}
+#DIY tr.first td span,#blank tr.first td span{
+	font-size:12px;
+}
+#DIY td,#blank td{
+	padding:5px 0px;
+	font-size:16px;
+}
+#DIY td span,#blank td span{
+	color:#7B9CAD;
+}
+#DIY td a:link,#DIY td a:visited,#blank td a:link,#blank td a:visited{
+	display:block;
+	float:left;
+	height:19px;
+	color:#000;
+	margin-right:16px;
+	padding-left:22px;
+	padding-top:5px;
+	text-decoration:none;
+	background:url(../images/Langlang_723.png) left 5px no-repeat;
+}
+#DIY td a.selected:link,#DIY td a.selected:visited,#blank td a.selected:link,#blank td a.selected:visited{
+	background:url(../images/Langlang_724.png) left 5px no-repeat;
+}
+#DIY td.txt input,#blank td.txt input{
+	width:42px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border:3px solid #7B9CAF;
+}
+#DIY td.img,#blank td.img{
+	padding-left:40px;
+}
+#preview{
+	position:absolute;
+	width:180px;
+	height:185px;
+	top:40px;
+	left:76px;
+}
+#preview .clear{
+	padding-top:3px;
+}
+#write{
+	width:59px;
+	height:14px;
+	padding-bottom:2px;
+	background:url(../images/Langlang_726.png) no-repeat;
+}
+#line{
+	margin-left:1px;
+}
+#bigMark{
+	float:left;
+	width:25px;
+	height:25px;
+	margin-left:-1px;
+	background:url(../images/Langlang_732.png) no-repeat;
+}
+#big{
+	float:left;
+	width:25px;
+	height:25px;
+	margin-left:-1px;
+	background:url(../images/Langlang_733.png) no-repeat;
+}
+#mediumMark{
+	float:left;
+	width:19px;
+	height:20px;
+	margin-left:-1px;
+	background:url(../images/Langlang_727.png) no-repeat;
+}
+#medium{
+	float:left;
+	width:19px;
+	height:20px;
+	margin-left:-1px;
+	background:url(../images/Langlang_728.png) no-repeat;
+}
+#smallMark{
+	float:left;
+	width:16px;
+	height:17px;
+	margin-left:-1px;
+	background:url(../images/Langlang_734.png) no-repeat;
+}
+#small{
+	float:left;
+	width:16px;
+	height:17px;
+	margin-left:-1px;
+	background:url(../images/Langlang_735.png) no-repeat;
+}
+
+
+#footer{
+	margin:0 auto;
+	width:400px;
+	height:45px;
+	text-align:left;
+	margin-top:40px;
+	padding-bottom:20px;
+	padding-left:192px;
+	font-size:10px;
+	font-weight:bolder;
+	background:url(../images/Langlang_718.png) 130px top no-repeat;
+}
+#footer div{
+	padding-top:5px;
+}
+a:link,a:visited{
+	color:#333;
+	padding-left:8px;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
